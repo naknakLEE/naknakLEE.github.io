@@ -9,14 +9,17 @@ permalink:           pretty
 
 # About/contact
 author:
-  name:              Mark ㅇㅁㄴㄹ넘ㅇㄹ
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Inhak LEE
+  url:               https://naknaklee.github.io
+  email:             inhak4488@gmail.com
   github:            https://github.com/naknaklee
 
 # Gems
 plugins:
   - jekyll-paginate
+
+# OpenGraph
+opengraph_type:      website
 
 # Custom vars
 version:             1.1.0
