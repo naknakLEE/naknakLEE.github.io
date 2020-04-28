@@ -19,8 +19,10 @@ plugins:
   - jekyll-paginate
 
 # OpenGraph
-opengraph_type:      website
+opengraph_type:        website
 
 # Custom vars
-version:             1.1.0
-google_analytics_id: G-1T8DEECHG0
+version:               1.1.0
+google_analytics_id:   G-1T8DEECHG0
+google_tag_mamager_id: GTM-PGXCPJR
+
