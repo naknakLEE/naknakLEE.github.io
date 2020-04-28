@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <meta name="description" content="{{ site.description }}">
 
+  <meta property="og:type" content="{{ site.opengraph_type }}"> 
+  <meta property="og:title" content="{{ site.title }}|{{ site.tagline }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ site.author.url }}/public/blog_logo.png">
+  <meta property="og:url" content="{{ site.author.url }}">
+
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
