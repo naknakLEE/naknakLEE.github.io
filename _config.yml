@@ -1,7 +1,7 @@
 # Setup
 title:               망고를 좋아하는 낙낙
 tagline:             '기술 블로그'
-description:         '인공지능, 딥러닝, 논문 리뷰하는 개발자'
+description:         '이 블로그는 인공지능, 딥러닝, 논문 리뷰, 개발 일지 등을 기록하며 성장해나아가는 블로그입니다.'
 url:                 ''
 baseurl:             ''
 paginate:            5
