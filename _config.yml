@@ -1,7 +1,7 @@
 # Setup
 title:               망고 블로그
 tagline:             'A Jekyll theme'
-description:         '테스트A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         '인공지능, 딥러닝, 논문 리뷰하는 개발자'
 url:                 ''
 baseurl:             ''
 paginate:            5
