@@ -9,7 +9,7 @@ use_math: true
 
 ## Abstract
 
-### We trained a large, Deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. 
+#### We trained a large, Deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. 
 
 > ImagesNet LSVRC-2010 대회에서 120만 고해상도 이미지를 1000가지 클래스로 분류하기 위해 대규모 Deep convolutioal neural network을 훈련했습니다.
 
