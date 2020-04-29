@@ -227,7 +227,7 @@ use_math: true
 > 빠른 학습은 큰 데이터 집합에 대해 훈련 된 큰 모델의 성능에 큰 영향을 미칩니다.
 
 
-![Alexnet_1](/assets/images/Alexnet_1.png)
+![Alexnet_1](/public/images/Alexnet_1.png)
 
 #### Figure 1: A four-layer convolutional neural network with ReLUs (solid line) reaches a 25% training error rate on CIFAR-10 six times faster than an equivalent network with tanh neurons (dashed line). 
 
