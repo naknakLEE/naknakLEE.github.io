@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 <div class="post">
@@ -9,9 +8,7 @@ comments: true
   {{ content }}
 </div>
 
-{% if page.comments != false %}
-  {% include disqus_comments.html %}
-{% endif %} 
+
 
 {% if site.related_posts.size >= 1 %}
 <div class="related">
@@ -30,3 +27,7 @@ comments: true
   </ul>
 </div>
 {% endif %}
+
+{% if page.comments != false %}
+  {% include disqus_comments.html %}
+{% endif %} 
