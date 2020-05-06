@@ -2,6 +2,9 @@
 layout: post
 title: AlexNet 논문 리뷰 및 해석
 use_math: true
+categories: [blog, travel]
+tags: [hot, summer]
+comments: true
 ---
 
 # [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf){:target="_blank"}
@@ -226,7 +229,7 @@ use_math: true
 > 빠른 학습은 큰 데이터 집합에 대해 훈련 된 큰 모델의 성능에 큰 영향을 미칩니다.
 
 
-![Alexnet_1](/public/images/Alexnet_1.png)
+![Alexnet_1](/public/images/2020-04-22-AlexNet-Post-Review-Alexnet_1.png)
 
 ##### Figure 1: A four-layer convolutional neural network with ReLUs (solid line) reaches a 25% training error rate on CIFAR-10 six times faster than an equivalent network with tanh neurons (dashed line). 
 
