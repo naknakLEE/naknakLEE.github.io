@@ -2,7 +2,7 @@
 layout: post
 title: AlexNet 논문 리뷰 및 해석
 use_math: true
-categories: AI
+categories: Classification
 ---
 
 # [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf){:target="_blank"}

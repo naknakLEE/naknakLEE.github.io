@@ -3,11 +3,28 @@ layout: default
 title: Home
 ---
 
+<aside class="page-aside">
+  <b>
+    <div class="categorybar-nav-item">카테고리</div>
+  </b>
+  <nav class="content-ul">
+    {% for category in site.categories %}
+    <a href="{{ root_url }}/{{ site.category_dir }}{{ category | first }}"class="categorybar-nav-item pl-3rem">
+      <span class="name">
+          {{ category | first }}
+      </span>
+      <span class="badge">({{ category | last | size }})</span>
+    </a>
+    {% endfor %}
+  </nav>
+</aside>
+
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ post.url | absolute_url }}">
+      <a class="a-post-title" href="{{ post.url | absolute_url }}">
         {{ post.title }}
       </a>
     </h1>
