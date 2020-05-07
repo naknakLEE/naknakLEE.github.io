@@ -1,18 +1,19 @@
 # Setup
-title:               낙낙이
-tagline:             '기술 블로그'
-description:         '이 블로그는 인공지능, 딥러닝, 논문 리뷰, 개발 일지 등을 기록하며 성장해나아가는 블로그입니다.'
-url:                 ''
-baseurl:             ''
-paginate:            5
-permalink:           pretty
+title:                 낙낙이
+tagline:               '기술 블로그'
+description:           '이 블로그는 인공지능, 딥러닝, 논문 리뷰, 개발 일지 등을 기록하며 성장해나아가는 블로그입니다.'
+url:                   ''
+baseurl:               ''
+paginate:              5
+permalink:             pretty
 
-# About/contact
-author:
-  name:              Inhak LEE
-  url:               https://naknaklee.github.io
-  email:             inhak4488@gmail.com
-  github:            https://github.com/naknaklee
+
+# About/contact  
+author:  
+  name:                Inhak LEE
+  url:                 https://naknaklee.github.io
+  email:               inhak4488@gmail.com
+  github:              https://github.com/naknaklee
 
 # Gems
 plugins:
@@ -32,3 +33,7 @@ highlighter:           rouge
 lsi:                   false
 excerpt_separator:     "\n\n"
 incremental:           false
+
+
+# category dir
+category_dir:          category/
