@@ -142,11 +142,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media (max-width: 48em) {
-  .masthead-title {
+@media (max-width: 60em) {
+  /* .masthead-title {
     text-align: center;
   }
   .masthead-title small {
+    display: none;
+  } */
+  .page-aside{
     display: none;
   }
 }
@@ -204,12 +207,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Sidebar nav */
 .sidebar-nav {
-  border-bottom: 1px solid rgba(255,255,255,.1);
+  border-bottom: 2px solid rgba(255,255,255,.1);
+  /* border-bottom: 1px solid black; */
 }
 .sidebar-nav-item {
   display: block;
   padding: .5rem 1rem;
-  border-top: 1px solid rgba(255,255,255,.1);
+  border-top: 2px solid rgba(255,255,255,.1);
+  /* border-top: 1px solid red; */
 }
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
