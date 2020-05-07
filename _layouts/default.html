@@ -3,12 +3,10 @@
 
   {% include head.html %}
 
-  <body class="theme-base-0a">
+  <body class="theme-base-0a layout-reverse" >
 
-    <!-- 사이드바 주석 -->
-    {% comment %}
-      {% include sidebar.html %}
-    {% endcomment %}
+    
+    {% include sidebar.html %}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
@@ -32,7 +30,7 @@
     </div>
     
     <!-- 사이드바 주석 -->
-    <!-- <label for="sidebar-checkbox" class="sidebar-toggle"></label> -->
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script src='{{ site.baseurl }}/public/js/script.js'></script>
   </body>
