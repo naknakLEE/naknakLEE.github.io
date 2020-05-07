@@ -39,15 +39,25 @@ html,
 body {
   overflow-x: hidden;
   /* 상단바 고정을 위한 속성 추가 */
-  padding-top: 50px;
+  /* padding-top: 50px; */
+
+  /* 폰트 추가 */
+  font: 400 18px/1.8 "Apple SD Gothic Neo","Nanum Barun Gothic","Nanum Gothic",Verdana,Arial,"Malgun Gothic",Dotum,sans-serif;
+
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  /* 기존 폰트 */
+  /* font-family: "PT Serif", Georgia, "Times New Roman", serif; */
+  /* 폰트 추가 */
+  font: "Apple SD Gothic Neo","Nanum Barun Gothic","Nanum Gothic",Verdana,Arial,"Malgun Gothic",Dotum,sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  /* 기존 폰트 */
+  /* font-family: "PT Sans", Helvetica, Arial, sans-serif; */
+  /* 폰트 추가 */
+  font: "Apple SD Gothic Neo","Nanum Barun Gothic","Nanum Gothic",Verdana,Arial,"Malgun Gothic",Dotum,sans-serif;
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
@@ -97,15 +107,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .masthead {
   /* 상단바 고정을 위해 추가 */
-  position: fixed;
+  /* position: fixed;
   top: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #fff; */
+  /* 우선순위 지정 */
+  z-index: 99;
+  /* 상단바 고정을 위해 추가 끝 */
 
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
+  
 }
 .masthead-title {
   margin-top: 0;
@@ -126,6 +140,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #c0c0c0;
   letter-spacing: 0;
 }
+
 
 @media (max-width: 48em) {
   .masthead-title {
@@ -154,6 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Style and "hide" the sidebar */
 .sidebar {
+  
   position: fixed;
   top: 0;
   bottom: 0;
@@ -203,6 +219,21 @@ a.sidebar-nav-item:focus {
   border-color: transparent;
 }
 
+
+.categorybar-nav-item {
+  display: block;
+  padding: .5rem 1rem;
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+.categorybar-nav-item.active,
+a.categorybar-nav-item:hover,
+a.categorybar-nav-item:focus {
+  text-decoration: none;
+  background-color: rgba(255,255,255,.1);
+  border-color: transparent;
+}
+
+
 @media (min-width: 48em) {
   .sidebar-item {
     padding: 1.5rem;
@@ -215,15 +246,20 @@ a.sidebar-nav-item:focus {
 
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
 .sidebar-checkbox {
-  position: absolute;
+  /* 사이드 바 클릭 시 처음으로 돌아가는 버그 해결 : 코드 삭제*/
+  /* position: absolute;
   opacity: 0;
   -webkit-user-select: none;
      -moz-user-select: none;
-          user-select: none;
+          user-select: none; */
+  /* 사이드 바 클릭 시 처음으로 돌아가는 버그 해결 : 코드 추가*/
+  display: none;
 }
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
+  /* 우선순위 지정 */
+  z-index: 100;
   position: absolute;
   top:  .8rem;
   left: 1rem;
@@ -299,12 +335,38 @@ a.sidebar-nav-item:focus {
   z-index: 10;
   visibility: visible;
 }
+
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   -webkit-transform: translateX(14rem);
       -ms-transform: translateX(14rem);
           transform: translateX(14rem);
+}
+
+
+/*
+ * Reverse layout
+ *
+ * Flip the orientation of the page by placing the `.sidebar` and sidebar toggle
+ * on the right side.
+ */
+
+ .layout-reverse .sidebar {
+  left: auto;
+  right: -14rem;
+}
+.layout-reverse .sidebar-toggle {
+  left: auto;
+  right: 1rem;
+}
+
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar,
+.layout-reverse #sidebar-checkbox:checked ~ .wrap,
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
+  -webkit-transform: translateX(-14rem);
+      -ms-transform: translateX(-14rem);
+          transform: translateX(-14rem);
 }
 
 
@@ -417,29 +479,6 @@ a.pagination-item:hover {
 }
 
 
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` and sidebar toggle
- * on the right side.
- */
-
-.layout-reverse .sidebar {
-  left: auto;
-  right: -14rem;
-}
-.layout-reverse .sidebar-toggle {
-  left: auto;
-  right: 1rem;
-}
-
-.layout-reverse #sidebar-checkbox:checked ~ .sidebar,
-.layout-reverse #sidebar-checkbox:checked ~ .wrap,
-.layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
-  -webkit-transform: translateX(-14rem);
-      -ms-transform: translateX(-14rem);
-          transform: translateX(-14rem);
-}
 
 
 /*
@@ -481,8 +520,14 @@ a.pagination-item:hover {
 }
 .theme-base-0a .container a,
 .theme-base-0a .sidebar-toggle,
+.theme-base-0a .categorybar-nav-item,
 .theme-base-0a .related-posts li a:hover {
   color: #f4bf75;
+}
+/* 카테고리는 검정으로 */
+.theme-base-0a .container a span
+/* .theme-base-0a .container .a-post-title */{
+  color: black;
 }
 
 /* Green */
@@ -570,7 +615,24 @@ a.pagination-item:hover {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
 
-/* Set Footer */
+/* footer 가운데 정렬 */
 .footer{
   text-align: center;
 }
+
+/* 카테고리 바 오른쪽으로 추가 */
+.page-aside {
+  float: right;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+/* 카테고리 폰트 사이즈 조정 */
+.page-aside .content-ul a span{
+  font-size: 16px;
+}
+
+/* .sidebar-toggle{
+  display: none;
+} */
