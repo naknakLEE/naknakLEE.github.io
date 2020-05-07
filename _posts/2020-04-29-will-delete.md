@@ -2,8 +2,7 @@
 layout: post
 title: 삭제 예정
 use_math: true
-categories: [test, travel]
-tags: [test, summer]
+categories: 메롱이다
 comments: true
 ---
 
