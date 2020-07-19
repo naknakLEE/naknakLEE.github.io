@@ -5,8 +5,6 @@ use_math: true
 categories: etc
 ---
 
-# 우분투 18.04 (리눅스) 부팅 시 자동 파이썬 실행
-
 ## 서비스를 실행 할 스크립트 작성
    - 위치 : 상관없음
 	 - ex) /home/test/test.py
