@@ -105,7 +105,7 @@ while:
 	# 예시 
 
 	$ sudo systemctl daemon-reload
-	$ sudo systemctl enable 서비스이름
+	$ sudo systemctl enable test_service.service
 	```
 5. 재부팅 및 확인
    ```bash
