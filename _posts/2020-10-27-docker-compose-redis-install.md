@@ -16,6 +16,8 @@ categories: etc
   $ docker -v
   ```
 
+  <br>
+
 * 도커 설치 안 되어 있으면 아래 진행
 
 ```bash
@@ -53,13 +55,11 @@ $ sudo docker run hello-world
 $ docker -v
 ```
 
-
-
-
+<br>
 
 ## 2. docker-compose install
 
-
+<br>
 
 ```bash
 # Run this command to download the current stable release of Docker Compose:
@@ -69,15 +69,17 @@ $ sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docke
 $ sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-
+<br>
 
 ## 3. docker-compose.yml 파일 생성
+
+<br>
 
 `redis-docker-compose.yml` 파일 생성
 
 YAML형식으로 지원버전과 함께 서비스, 네트워크, 볼륨 등을 정의
 
-
+<br>
 
 ```yaml
 version: "3"
@@ -95,11 +97,13 @@ services:
       command: redis-server
 ```
 
-
+<br>
 
 ### 3_1 docker-compose.yml volumes (선택 사항)
 
 ---
+
+<br>
 
 아래 volume 옵션 추가
 
@@ -123,10 +127,13 @@ services:
       command: redis-server /usr/local/etc/redis/redis.conf
 ```
 
-- etc) redis.conf 파일 수정 하고 싶다면 `~/Desktop/redis/6379/conf` 폴더 안에 받은 파일을 저장
-  - redis.conf 파일 다운 주소 : https://redis.io/topics/config
-  - redis.conf 파일 다운 후 각자 요령에 맞게 수정 ex) bind 0.0.0.0
+<br>
 
+- etc) redis.conf 파일 수정 하고 싶다면 `~/Desktop/redis/6379/conf` 폴더 안에 받은 파일을 저장
+  
+  - redis.conf 파일 다운 주소 : https://redis.io/topics/config
+- redis.conf 파일 다운 후 각자 요령에 맞게 수정 ex) bind 0.0.0.0
+  
 - users.acl redis 계정 관련 정보가 있는 파일
 
   - `redis.conf` 안에 아래 한 줄을 추가
@@ -139,13 +146,11 @@ services:
 
     이번 포스팅에서는 docker-compose 설치 및 실행 방법이니 acl파일 생성 및 설정 방법은 나중에 따로 포스팅 하겠습니다.
 
-
-
-
-
-
+<br>
 
 ## 4. Redis 이미지 생성 및 실행
+
+<br>
 
 ```bash
 $ docker-compose up -d --build redis6379
