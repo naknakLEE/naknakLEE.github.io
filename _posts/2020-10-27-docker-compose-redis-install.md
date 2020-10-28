@@ -67,8 +67,6 @@ $ sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docke
 
 # Apply executable permissions to the binary:
 $ sudo chmod +x /usr/local/bin/docker-compose
-
-
 ```
 
 
@@ -78,6 +76,8 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 `redis-docker-compose.yml` 파일 생성
 
 YAML형식으로 지원버전과 함께 서비스, 네트워크, 볼륨 등을 정의
+
+
 
 ```yaml
 version: "3"
