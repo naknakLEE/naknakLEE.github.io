@@ -143,6 +143,9 @@ services:
 
 ## 4. Redis 이미지 생성 및 실행
 
+- `docker-compose.yml` 파일이 있는 경로에서 실행
+- permission denied가 뜨면 앞에 sudo 붙이고 실행
+
 
 ```bash
 $ docker-compose up -d --build redis6379
