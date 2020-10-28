@@ -1,3 +1,10 @@
+---
+layout: post
+title: Ubuntu)Docker Compose에 Redis 설치 및 실행
+use_math: False
+categories: etc
+---
+
 # (Ubuntu)Docker Compose에 Redis 설치 및 실행
 
 
