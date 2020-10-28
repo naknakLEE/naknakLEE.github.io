@@ -141,6 +141,10 @@ services:
 
 
 
+
+
+
+
 ## 4. Redis 이미지 생성 및 실행
 
 ```bash
