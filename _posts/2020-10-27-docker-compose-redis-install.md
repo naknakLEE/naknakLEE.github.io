@@ -5,11 +5,9 @@ use_math: False
 categories: etc
 ---
 
-
-
-
+<br><br>
 ## 1. docker install (도커 설치 되어있으면 패스)
-
+<br>
 * 도커 설치 확인법 
 
   ```bash
@@ -59,8 +57,6 @@ $ docker -v
 
 ## 2. docker-compose install
 
-<br>
-
 ```bash
 # Run this command to download the current stable release of Docker Compose:
 $ sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -73,7 +69,6 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 
 ## 3. docker-compose.yml 파일 생성
 
-<br>
 
 `redis-docker-compose.yml` 파일 생성
 
@@ -102,8 +97,6 @@ services:
 ### 3_1 docker-compose.yml volumes (선택 사항)
 
 ---
-
-<br>
 
 아래 volume 옵션 추가
 
@@ -150,7 +143,6 @@ services:
 
 ## 4. Redis 이미지 생성 및 실행
 
-<br>
 
 ```bash
 $ docker-compose up -d --build redis6379
