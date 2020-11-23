@@ -6,7 +6,7 @@ categories: Classification
 
 ---
 
-# Gradient-Based Learning Applied to Document Recognition(http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf){"target="_blank"}
+# [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf){:target="_blank"}
 
 ## Abstract
 
