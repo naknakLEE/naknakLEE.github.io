@@ -270,3 +270,39 @@ categories: Classification
 #### However, kernels in layer 4 take input only from those kernel maps in layer 3 which reside on the same GPU.
 
 > 그러나 계층 4의 커널은 동일한 GPU에 있는 계층 3의 커널 맵에서만 입력을 받습니다.
+
+#### Choosing the pattern of connectivity is a problem for cross-validation, but this allows us to precisely tune the amount of communication until it is an acceptable fraction of the amount of computation.
+
+> 연결 패턴을 선택하는 것은 교차 검증의 문제이지만, 이것은 우리가 그것이 계산 양의 허용 가능한 부분이 될 때까지 통신 양을 정밀하게 조정할 수 있게 해줍니다.
+
+#### The resultant architecture is somewhat similar to that of the “columnar” CNN employed by Ciresanet al. [5], except that our columns are not independent (see Figure 2).
+
+> 결과 아키텍처는 Ciresan al[5]등이 사용하는 "columnar cnn"과 다소 유사합니다. 열이 독립적이지 않다는 점을 제외합니다.(그림 2 참조)
+
+#### This scheme reduces our top-1 and top-5 error rates by 1.7% and 1.2%, respectively, as compared with a net with half as many kernels in each convolutional layer trained on one GPU
+
+> 이 체계는 하나의 GPU에서 훈련 된 각 컨볼루션 계층에 커널이 절반으로 많은 넷과 비교하여 top-1 및 top-5 오류율을 각각 1.7% 및 1.2% 줄입니다.
+
+#### The two-GPU net takes slightly less time to train than the one-GPU net2.
+ 
+> 2-GPU net은 1-GPU net2보다 훈련하는데 약간 더 적은 시간이 걸립니다.
+
+### 3.3 Local Response Normalization
+
+#### ReLUs have the desirable property that they do not require input normalization to prevent them from saturating.
+
+> ReLU는 포화를 방지하기 위해 입력 정규화가 필요하지 않는 바람직한 속성을 가지고 있습니다.
+
+#### If at least some training examples produce a positive input to a ReLU, learning will happen in that neuron.
+
+> 적어도 일부 훈련 예제가 ReLU에 긍정적인 입력을 생성하면 해당 뉴런에서 학습이 발생합니다.
+
+#### However, we still find that the following local normalization scheme aids generalization.
+
+> 그러나 우리는 여전히 다음과 같은 지역 정규화 체계가 일반화에 도움이 된다는 것을 발견했습니다.
+
+####  Denoting by ${a_x}_y^i$ the activity of a neuron computed by applying kernel $i$ at position $(x,y)$ and then applying the ReLU nonlinearity, the response-normalized activity ${b_x}_y^i$ is given by the expression.
+
+> 위치 $(x,y)$어 커널 $i$를 적용한 다음 ReLU 비선형 성을 적용하여 계산 된 뉴런의 활동을 ${a_x}_y^i$로 표시하면 응답 정규화 된 활동 ${b_x}_y^i$는 다음 식으로 제공됩니다.
+
+
