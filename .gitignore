@@ -1,2 +1,3 @@
 _site/*
 .jekyll-cache/Jekyll/Cache/*
+.ipynb_checkpoints*
