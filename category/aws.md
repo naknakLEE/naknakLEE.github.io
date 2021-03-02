@@ -1,6 +1,6 @@
 ---
 
-layout: aws
+layout: category
 
 title: aws
 ---
