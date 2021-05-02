@@ -2,7 +2,7 @@
 layout: post
 title: Reinforcement Learning
 use_math: False
-categories: 강화학습
+categories: etc
 ---
 
 
