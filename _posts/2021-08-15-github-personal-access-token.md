@@ -63,3 +63,5 @@ $ git clone https://github.com/username/repo.git
 Username: your_username
 Password: 발급 받은 토큰
 ```
+
+매번 토큰을 사용한 github접근이 번거롭긴 하지만 확실히 보안적인 측면은 좋아진 것 같다.토큰에 유효기간이 있으며 각 토큰마다 권한도 다르게 줄 수 있으니 토큰을 활용한 접속을 적극 활용해야겠다.
