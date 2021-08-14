@@ -28,26 +28,26 @@ categories: etc
 ## 해결 방법
 
 
-1. github 로그인 후 오른쪽 위 계정 클릭 -> Setting 클릭
+ 1. github 로그인 후 오른쪽 위 계정 클릭 -> Setting 클릭
 
 ![token3](/public/images/2021-08-15-github-personal-access-token-10.png)
 
-2. 메뉴 아래쪽에 Developer settings 클릭
+ 2. 메뉴 아래쪽에 Developer settings 클릭
 
 ![token4](/public/images/2021-08-15-github-personal-access-token-4.png)
 
-3. Personal access tokens 클릭
+ 3. Personal access tokens 클릭
 
 ![token5](/public/images/2021-08-15-github-personal-access-token-5.png)
 
-4. Generate new token 클릭 후 토큰 명 작성 후 허용할 범위 선택 (평범한 경우 repo만 선택해도 됨)
+ 4. Generate new token 클릭 후 토큰 명 작성 후 허용할 범위 선택 (평범한 경우 repo만 선택해도 됨)
 
 ![token2](/public/images/2021-08-15-github-personal-access-token-2.png)
 ![token6](/public/images/2021-08-15-github-personal-access-token-6.png)
 ![token7](/public/images/2021-08-15-github-personal-access-token-7.png)
 ![token8](/public/images/2021-08-15-github-personal-access-token-8.png)
 
-5. 생성 된 토큰 값 복사하기
+ 5. 생성 된 토큰 값 복사하기
 
 ** 주의 **
 한번 생성 된 토큰은 까먹었다고 나중에 다시 볼 수 없으니 꼭 기억을 해두세요.
