@@ -1,57 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
-<!-- www.check-domains.com sitemap generator -->
-
-<url>
-   <loc>https://naknaklee.github.io/</loc>
-   <lastmod>2020-04-27T09:28:12+00:00</lastmod>
-   <changefreq>always</changefreq>
-   <priority>1.0000</priority>
-</url>
-<url>
-   <loc>https://naknaklee.github.io/atom.xml</loc>
-   <lastmod>2020-04-27T09:28:12+00:00</lastmod>
-   <changefreq>always</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://naknaklee.github.io/about/</loc>
-   <lastmod>2020-04-27T09:28:12+00:00</lastmod>
-   <changefreq>always</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://naknaklee.github.io/2020/04/22/AlexNet-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0/</loc>
-   <lastmod>2020-04-27T09:28:12+00:00</lastmod>
-   <changefreq>always</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://naknaklee.github.io/2020/04/03/introducing-lanyon/</loc>
-   <lastmod>2020-04-27T09:28:12+00:00</lastmod>
-   <changefreq>always</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://naknaklee.github.io/2020/04/02/example-content/</loc>
-   <lastmod>2020-04-27T09:28:12+00:00</lastmod>
-   <changefreq>always</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://naknaklee.github.io/2020/04/01/whats-jekyll/</loc>
-   <lastmod>2020-04-27T09:28:12+00:00</lastmod>
-   <changefreq>always</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://naknaklee.github.io/404.html</loc>
-   <lastmod>2020-04-27T09:28:12+00:00</lastmod>
-   <changefreq>always</changefreq>
-   <priority>0.6400</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+   <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+   <url>
+      <loc>https://naknaklee.github.io/</loc>
+      <lastmod>2021-08-14T17:50:05+00:00</lastmod>
+      <priority>1.00</priority>
+   </url>
+   <url>
+      <loc>https://naknaklee.github.io/about/</loc>
+      <lastmod>2021-08-14T17:50:05+00:00</lastmod>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://naknaklee.github.io/category/Classification/</loc>
+      <lastmod>2021-08-14T17:50:05+00:00</lastmod>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://naknaklee.github.io/category/etc/</loc>
+      <lastmod>2021-08-14T17:50:05+00:00</lastmod>
+      <priority>0.80</priority>
+      </url>
+   <url>
+      <loc>https://naknaklee.github.io/category/aws/</loc>
+      <lastmod>2021-08-14T17:50:05+00:00</lastmod>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://naknaklee.github.io/etc/2021/08/15/github-personal-access-token/</loc>
+      <lastmod>2021-08-14T17:50:05+00:00</lastmod>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://naknaklee.github.io/aws/2021/08/12/goofys/</loc>
+      <lastmod>2021-08-14T17:50:05+00:00</lastmod>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://naknaklee.github.io/etc/2021/03/08/NMS/</loc>
+      <lastmod>2021-08-14T17:50:05+00:00</lastmod>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://naknaklee.github.io/etc/2020/10/27/docker-compose-redis-install/</loc>
+      <lastmod>2021-08-14T17:50:05+00:00</lastmod>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://naknaklee.github.io/etc/2020/10/22/linux-ssh-tunneling/</loc>
+      <lastmod>2021-08-14T17:50:05+00:00</lastmod>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://naknaklee.github.io/page2/</loc>
+      <lastmod>2021-08-14T17:50:05+00:00</lastmod>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://naknaklee.github.io/classification/2020/04/22/AlexNet-Post-Review/</loc>
+      <lastmod>2021-08-14T17:50:05+00:00</lastmod>
+      <priority>0.64</priority>
+   </url>
+   <url>
+      <loc>https://naknaklee.github.io/etc/2020/07/19/linux-auto-start/</loc>
+      <lastmod>2021-08-14T17:50:05+00:00</lastmod>
+      <priority>0.64</priority>
+   </url>
 </urlset>
